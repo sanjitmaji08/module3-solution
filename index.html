@@ -4,11 +4,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
 
 <body>
-    <h1>Hello</h1>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light ">
+            <a class="navbar-brand" href="#">Food, LLC</a>
+            <button class="navbar-toggler" id="toggleButton" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse container-fluid justify-content-center toggleColor "
+                id="navbarNavAltMarkup">
+                <div class="nav navbar-nav" id="nav-text">
+                    <a class="nav-item nav-link" href="#chicken">
+                        <span class="hideText">Chicken</span>
+                    </a>
+                    <a class="nav-item nav-link" href="#beef"> <span class="hidden-lg-up hideText">Beef</span></a>
+                    <a class="nav-item nav-link" href="#sushi"><span class="hidden-lg-up hideText">Sushi</span></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h1>Our Menu</h1>
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-grey">
+                <div class="boxHeader " id="chicken">
+                    <p class="boxHeaderWeight">Chicken</p>
+                </div>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of
+                    Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in
+                    a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                    McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
+                    obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                    word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                    1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+                    Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during
+                    the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a
+                    line in section 1.10.32.
+                </p>
+            </div>
+
+
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-grey">
+                <div class="boxHeader" id="beef">
+                    <p class="boxHeaderWeight">Beef</p>
+                </div>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of
+                    Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in
+                    a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                    McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
+                    obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                    word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                    1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+                    Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during
+                    the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a
+                    line in section 1.10.32.
+                </p>
+            </div>
+
+
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-grey">
+                <div class="boxHeader" id="sushi">
+                    <p class="boxHeaderWeight">Sushi</p>
+                </div>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of
+                    Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in
+                    a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                    McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
+                    obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                    word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                    1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+                    Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during
+                    the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a
+                    line in section 1.10.32.
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
